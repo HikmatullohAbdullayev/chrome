@@ -23,7 +23,7 @@ export default function Home() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:HTMLFormElement) => {
     e.preventDefault();
     if (formData.title && formData.url) {
       
